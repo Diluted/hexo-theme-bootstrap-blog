@@ -1,8 +1,10 @@
+language: fr
 # Header
 navbar_brand: false
 menu:
   Home: index.html
   Archives: archives/
+  Faq: faq/
 rss: /atom.xml
 
 # Content
@@ -11,10 +13,10 @@ fancybox: false
 
 # Sidebar
 widgets:
-- about         # See also: `about_content`
+#- about         # See also: `about_content`
 - category
 - tag
-- tagcloud
+#- tagcloud
 - archive
 - recent_posts
 about_widget_content: >
@@ -23,13 +25,13 @@ about_widget_content: >
   lacinia bibendum nulla sed consectetur.</p>
 
 # widget behavior
-archive_type: 'monthly'
+archive_type: 'yearly'
 show_count: true
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-81836111-1
 favicon:
-twitter_id:
+twitter_id: diludead
 google_plus:
 fb_admins:
 fb_app_id:

@@ -6,7 +6,7 @@
 
   <div class="article-meta">
     <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
-    <% if (post.author){ %><div class="article-author"><%= post.author %></div><% } %>
+    <% if (post.author){ %><div class="article-author"><%= post.author %> | <a href="https://twitter.com/diludead" target="_blank">@Diludead</a></div><% } %>
     <%- partial('post/category') %>
   </div>
   <div class="article-inner">

@@ -26,7 +26,7 @@ function bsPaginatorHelper(options){
     '</span></li>';
 
   function link(i){
-    return self.url_for(i === 1 ? base : base + format.replace('%d', i));
+    return self.url_for(i === 1 ? base : format.replace('%d', i));
   }
 
   function pageLink(i){
