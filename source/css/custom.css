@@ -154,6 +154,7 @@ code {
 .blog-main {
   font-size: 1em;
   line-height: 1.5;
+  text-align: justify;
 }
 .blog-main > article:last-of-type {
   margin-bottom: 30px;
