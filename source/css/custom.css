@@ -152,7 +152,7 @@ code {
  */
 
 .blog-main {
-  font-size: 18px;
+  font-size: 1em;
   line-height: 1.5;
 }
 .blog-main > article:last-of-type {
